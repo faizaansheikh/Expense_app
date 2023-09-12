@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-import ExpensesChart from "./components/Expenses/ExpensesChart";
 import NewCompExpense from "./components/Expenses/NewCompExpense";
 import NewExpense from "./components/NewExpense/NewExpense";
 function App() {
@@ -46,8 +45,12 @@ function App() {
   
   return (
     <>
+    <div style={{backgroundColor:'#ab84bd',marginTop:'none'}}>
+      <h3 style={{textAlign:'center',fontSize:'30px',padding:'10px',margin:'20pxnp'}}>Expense App</h3>
     <NewExpense  onStoreNewData = {storeNewData}/>
     <NewCompExpense items = {expenses}/>
+    </div>
+   
   
    
     </>

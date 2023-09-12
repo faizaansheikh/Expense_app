@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./expFilter.css"
 function ExpenseFilter(props) {
     // const[val , setVal] = useState('')
